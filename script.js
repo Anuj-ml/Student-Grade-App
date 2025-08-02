@@ -30,8 +30,7 @@ const students = [];
             Name: ${studentResult.name}
             Subject: ${studentResult.subject}
             Marks: ${studentResult.marks}
-            Grade: ${studentResult.grade}
-            `);
+            Grade: ${studentResult.grade}`);
         console.log(students);
 
         document.getElementById('name').value = '';
